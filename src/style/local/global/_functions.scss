@@ -1,0 +1,9 @@
+$elements: 5;
+$i: 0;
+
+@while $i < $elements {
+    .card:nth-child(#{$i}) {
+        margin-left: 6%;
+    }
+    $i: $i + 2;
+}

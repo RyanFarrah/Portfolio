@@ -1,0 +1,13 @@
+nav {
+    section a {
+    width: 32%;
+    color: #f5f5f5;
+    font-size: 1.7em;
+    text-align: center;
+
+    &.active {
+        border-bottom: 2px solid white;
+    }
+    }
+    margin-bottom: 50px;
+}
